@@ -3,6 +3,16 @@
 An iOS app with basic sign up, log in, and home UI pages.
 
 ## Getting Started
+* Run index.ios.js in any project created by the React Native command line interface, i.e., the "react-native init AwesomeProject", or the Create React Native App.
+
+* index.ios.js starts from the the original GritOn page where there are the sign-up button and the log-in button.
+
+* The sign-up button directs users to SignUpPageOne.js followed by SignUpPageTwo.js
+
+* The log-in button directs users to LoginPage.js
+
+* The log-in buttons from LoginPage.js and SignUpPageTwo.js lead to TabBarPage.js, which directs users to TabOneHome.js and JournalPage.js
+
 ### Prerequisites
 
 The React Native CLI
